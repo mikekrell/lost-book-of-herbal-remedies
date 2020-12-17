@@ -33,7 +33,8 @@ export default function Home() {
         <script dangerouslySetInnerHTML={{ __html:
                   `!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
         qp('init', 'd7fb88564e0f42f1808758e30bc1dfa8');
-        qp('track', 'ViewContent');` }}/>
+        qp('track', 'ViewContent');
+        qp('track', 'Generic');` }}/>
         <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" /></noscript>
         </Fragment>
       </Head>
