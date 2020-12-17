@@ -36,7 +36,7 @@ export default function Home() {
         qp('init', 'd7fb88564e0f42f1808758e30bc1dfa8');
         qp('track', 'ViewContent');
         qp('track', 'Generic');` }}/>
-        <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" /></noscript>
+          <noscript dangerouslySetInnerHTML={{ __html:`<img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" />`}}/>
         </>
       </Head>
 
