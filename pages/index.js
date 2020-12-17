@@ -1,4 +1,3 @@
-import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { animateScroll as scroll } from 'react-scroll'
@@ -6,7 +5,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import "tailwindcss/tailwind.css";
 
 export default function Home() {
-
+  const Fragment = React.Fragment;
   const scrollToVideoButton = () => {
     scroll.scrollTo(1400, {
       duration: 1500,
@@ -30,13 +29,13 @@ export default function Home() {
       <Head>
         <title>The Lost Book of Herbal Remedies | Cure your Ailments Naturally.</title>
         <link rel="icon" href="/favicon.ico" />
-        <React.Fragment>
+        <Fragment>
         <script dangerouslySetInnerHTML={{ __html:
                   `!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
         qp('init', 'd7fb88564e0f42f1808758e30bc1dfa8');
         qp('track', 'ViewContent');` }}/>
         <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" /></noscript>
-        </React.Fragment>
+        </Fragment>
       </Head>
 
       <nav className="w-full flex items-center justify-between mt-2 mb-2">
