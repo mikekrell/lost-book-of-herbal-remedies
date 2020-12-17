@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { animateScroll as scroll } from 'react-scroll'
@@ -5,7 +6,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import "tailwindcss/tailwind.css";
 
 export default function Home() {
-  const Fragment = React.Fragment;
+  
   const scrollToVideoButton = () => {
     scroll.scrollTo(1400, {
       duration: 1500,
