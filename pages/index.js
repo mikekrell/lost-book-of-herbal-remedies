@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
         <div className="m-10 flex flex-col">
-        <img src="The_Medicinal_Plants_Hiding_in_Your_Backyard_for_Every_US_State.png" className="rounded-12 mb-10"/>
+        <img width="930" height="490" alt="the medicinal plants hiding in your back yard" src="The_Medicinal_Plants_Hiding_in_Your_Backyard_for_Every_US_State.jpg" className="rounded-12 mb-10"/>
         <h1 className="text-xl font-bold mb-5">How Does The Lost Book of Herbal Remedies Work?</h1>
         <p dir="ltr">The program is comprehensive enough to give you the details and information you need to get started. It works by guiding you in every step of the way, specifically on how to use herbs and plants for treating diseases.</p>
         <p dir="ltr">The book will explain to you the benefits of using natural ingredients, those that can be found in nature. It will show you how to start your own herbal garden at home. In fact, it comes with detailed guide on how you can grow medicinal plants. It also includes a list of anti-inflammatory plants for faster healing of wounds and pain. At the same time, this eBook highlights the benefits of growing plants that have antiviral properties.</p>
@@ -106,12 +106,12 @@ export default function Home() {
         <div className="m-10 flex flex-col">
             <h1 className="text-xl font-bold mb-5">What You Will Find Inside The Lost Book of Herbal Remedies?</h1>
             <p>When you purchase the program, it will open your mind to a lot of helpful information and methods on how to stay away from diseases and be healthy. Here are some of the things you will learn from the guide:</p>
-            <ul class="m-2">
-              <li class="m-2">1. How to use medicinal plants and herbs with step by step procedure</li>
-              <li class="m-2">2. Specific herbs to use on how to treat wheezing, asthma, common cold and more</li>
-              <li class="m-2">3. How to stay healthy despite of many surrounding illnesses</li>
-              <li class="m-2">4. A list of plants and herbs for preventing various types of health problems</li>
-              <li class="m-2">5. sList of spices for treating viral or parasitic problems</li>
+            <ul className="m-2">
+              <li className="m-2">1. How to use medicinal plants and herbs with step by step procedure</li>
+              <li className="m-2">2. Specific herbs to use on how to treat wheezing, asthma, common cold and more</li>
+              <li className="m-2">3. How to stay healthy despite of many surrounding illnesses</li>
+              <li className="m-2">4. A list of plants and herbs for preventing various types of health problems</li>
+              <li className="m-2">5. sList of spices for treating viral or parasitic problems</li>
             </ul>
         </div>
           <div className="m-10 flex flex-col">
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
             <div className="mt-10 bg-green-500 p-3 items-center flex flex-col mb-8">
               <h1 className="text-xl text-white font-bold mb-5 text-gray-800 mt-5">A Final Thoughts on The Book of Herbal Remedies</h1>
-              <iframe src="https://player.vimeo.com/video/471422053" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe title="Power of Plants Vimeo" src="https://player.vimeo.com/video/471422053" width="640" height="361" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               <p><a href="https://vimeo.com/471422053">The Forgotten Power of Plants with Nicole Apelian</a> from <a href="https://vimeo.com/user124582185">Joao Murillo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
               <p className="text-sm mb-5 p-2 leading-8 text-gray-800">Overall, this comprehensive program is beneficial and a practical guide for everyone. It is for those who are looking for a more affordable way of treating diseases and staying healthy. In this guide, you will learn some of the best survival methods and techniques. You will begin to appreciate the health benefits of herbs and other medicinal plants. This revolutionary eBook can serve as your survival kit even in the hardest times. And also, it comes with a money back guarantee offer, you can request for a refund in case you are not satisfied with the program. It has been tried by many and so far, it has been gaining positive reviews.</p>
             </div>
@@ -139,19 +139,19 @@ export default function Home() {
             <div className="mt-5 p-3 items-center flex mb-8 justify-between">
               <div className="w-1/3 flex justify-center">
                 <a href="https://bookofrem.pay.clickbank.net/?cbitems=1&cbfid=34535&vtid=control&tkn=dHJraWQuNmEwZWRhZTItNmY3YS00NmEyLTlmMDgtYWVmNTM4MTJhMzNlfHNwbGl0Lnx0di58dC58Y3AufGNwdC58Y3AxLnxjcDIufGNwMy58Y3A0LnxjcDUufHByYy58Y3QufGN0MS58Y3QyLnx0ZzEufHRnMi58dGczLnx0ZzQufHRnNS58bGlkLnxtLnxoYXNoLjQxYzFiNDY0Nzc4ZTUzNDQ1M2UzOTRiMTNmMjUzY2N&REF=6a0edae2-6f7a-46a2-9f08-aef53812a33e">
-                <img src="buy_d_new.png"></img>
+                <img width="210" height="369" src="buy_d_new.png" alt="offer 1"></img>
                 </a>
               </div>
               <div className="w-1/3 flex justify-center">
-                <a href="https://bookofrem.pay.clickbank.net/?cbitems=11&cbfid=34535&vtid=control&tkn=dHJraWQuNmEwZWRhZTItNmY3YS00NmEyLTlmMDgtYWVmNTM4MTJhMzNlfHNwbGl0Lnx0di58dC58Y3AufGNwdC58Y3AxLnxjcDIufGNwMy58Y3A0LnxjcDUufHByYy58Y3QufGN0MS58Y3QyLnx0ZzEufHRnMi58dGczLnx0ZzQufHRnNS58bGlkLnxtLnxoYXNoLjQxYzFiNDY0Nzc4ZTUzNDQ1M2UzOTRiMTNmMjUzY2N&REF=6a0edae2-6f7a-46a2-9f08-aef53812a33e"><img src="buy_dp_new.png"></img></a>
+                <a href="https://bookofrem.pay.clickbank.net/?cbitems=11&cbfid=34535&vtid=control&tkn=dHJraWQuNmEwZWRhZTItNmY3YS00NmEyLTlmMDgtYWVmNTM4MTJhMzNlfHNwbGl0Lnx0di58dC58Y3AufGNwdC58Y3AxLnxjcDIufGNwMy58Y3A0LnxjcDUufHByYy58Y3QufGN0MS58Y3QyLnx0ZzEufHRnMi58dGczLnx0ZzQufHRnNS58bGlkLnxtLnxoYXNoLjQxYzFiNDY0Nzc4ZTUzNDQ1M2UzOTRiMTNmMjUzY2N&REF=6a0edae2-6f7a-46a2-9f08-aef53812a33e"><img width="210" height="369" src="buy_dp_new.png" alt="offer 2"></img></a>
               </div>
               <div className="w-1/3 flex justify-center">
-                <a href="https://bookofrem.pay.clickbank.net/?cbitems=11&cbfid=34535&vtid=control&tkn=dHJraWQuNmEwZWRhZTItNmY3YS00NmEyLTlmMDgtYWVmNTM4MTJhMzNlfHNwbGl0Lnx0di58dC58Y3AufGNwdC58Y3AxLnxjcDIufGNwMy58Y3A0LnxjcDUufHByYy58Y3QufGN0MS58Y3QyLnx0ZzEufHRnMi58dGczLnx0ZzQufHRnNS58bGlkLnxtLnxoYXNoLjQxYzFiNDY0Nzc4ZTUzNDQ1M2UzOTRiMTNmMjUzY2N&REF=6a0edae2-6f7a-46a2-9f08-aef53812a33e" ><img src="buy_p_new.png"></img></a>
+                <a href="https://bookofrem.pay.clickbank.net/?cbitems=11&cbfid=34535&vtid=control&tkn=dHJraWQuNmEwZWRhZTItNmY3YS00NmEyLTlmMDgtYWVmNTM4MTJhMzNlfHNwbGl0Lnx0di58dC58Y3AufGNwdC58Y3AxLnxjcDIufGNwMy58Y3A0LnxjcDUufHByYy58Y3QufGN0MS58Y3QyLnx0ZzEufHRnMi58dGczLnx0ZzQufHRnNS58bGlkLnxtLnxoYXNoLjQxYzFiNDY0Nzc4ZTUzNDQ1M2UzOTRiMTNmMjUzY2N&REF=6a0edae2-6f7a-46a2-9f08-aef53812a33e" ><img src="buy_p_new.png" width="210" height="369" alt="offer 3"></img></a>
               </div>
             </div>
           </div>
         </div>
-        <img src='verify.jpg' />
+        <img witdth="324" height="103" src='verify.jpg' />
       </main>
 
       <footer className={styles.footer}>
