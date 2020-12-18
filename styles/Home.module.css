@@ -81,11 +81,18 @@ padding-right: 20px;
   .header {
     flex-direction: column;
   }
+
+  .section1, .para { 
+    padding-left: 1em;
+    padding-right: 1em
+  }
   .section2 {
     flex-direction: column;
   }
   .section3 {
     flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   .productListing {
     flex-direction: column;
