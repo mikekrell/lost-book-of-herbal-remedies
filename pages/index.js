@@ -57,7 +57,7 @@ export default function Home() {
             <p className="text-xs text-gray-600 p-12">*Disclaimer: Individual results may vary. The information on this website has not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. </p>
         </div>
           <div style={{ height: '50vh' }} className="w-1/2 flex items-center justify-center">
-            <img style={{ height: '420px'}} src='1608154908.png' alt="3D Book" />
+            <img style={{ height: '420px'}} width="443" height="420" src='1608154908.png' alt="3D Book" />
           </div>
       </div>
       <div className="flex flex-col m-10 mt-20" >
@@ -66,11 +66,11 @@ export default function Home() {
 
           <div className="w-full flex mt-5 mb-20">
             <div className="h-24 w-1/2 m-5">
-              <img src="review2.png" height="100" alt="image 1"></img>
+              <img src="review2.png" height="100" width="324" alt="image 1"></img>
               <p className="text-xs text-bold ml-1 mt-1">Wow, this book has 2-4 color pictures for every plant, with in depth identification notes. easy to use. lots of remedies, tinctures, syrups, ointments, poultices, etc. Also, at the end the book has an index with all the conditions you can think of… and the pages where you’ll find the remedies and plants for your particular needs </p>
             </div>
             <div className="h-24 w-1/2 m-5">
-              <img src="review3.png" alt="image 2"></img>
+              <img src="review3.png" width="324" alt="image 2"></img>
               <p className="text-xs text-bold ml-1 mt-1">I've had extensive involvement in healthcare and the unfortunate corruption of conventional medicine and this book is a valuable resource for anyone who wishes to research more options for health remedies that may provide the elusive answer to a stubborn ailment. Plus, being able to grow the plants suggested in this work will enhance the beauty of any landscape! </p>
             </div>
           </div>
