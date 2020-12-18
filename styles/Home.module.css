@@ -1,6 +1,6 @@
 .container {
   max-width: 980px;
-  min-width: 590px;
+  min-width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,11 +80,17 @@ padding-right: 40px;
   .header {
     flex-direction: column;
   }
+  .section2 {
+    flex-direction: column;
+  }
   .section3 {
     flex-direction: column;
   }
   .productListing {
     flex-direction: column;
+  }
+  .header_cta {
+    margin-right: 0;
   }
 
 }
@@ -94,7 +100,6 @@ padding-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 25px;
   justify-content: center;
   flex: 1 1 0px;
 }
@@ -165,8 +170,6 @@ padding-right: 40px;
   padding: 3.5em;
   background-color: beige;
 }
-
-
 
 .sectio3_text {
   flex: 1 1 0px;
