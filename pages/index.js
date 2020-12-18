@@ -29,6 +29,9 @@ export default function Home() {
     <div style={{width: '980px'}} className="flex flex-col justify-center m-auto">
       <Head>
         <title>The Lost Book of Herbal Remedies | Cure your Ailments Naturally.</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="The Lost Book of Herbal Remedies | Cure your Ailments Naturally" key="title" />
+        <meta property="og:description" content="Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem." key="description" />
         <link rel="icon" href="/favicon.ico" />
         <>
         <script dangerouslySetInnerHTML={{ __html:
@@ -36,25 +39,25 @@ export default function Home() {
         qp('init', 'd7fb88564e0f42f1808758e30bc1dfa8');
         qp('track', 'ViewContent');
         qp('track', 'Generic');` }}/>
-          <noscript dangerouslySetInnerHTML={{ __html:`<img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" />`}}/>
+          <noscript dangerouslySetInnerHTML={{ __html:`<img alt="pixel" height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" />`}}/>
         </>
       </Head>
 
       <nav className="w-full flex items-center justify-between mt-2 mb-2">
         <div className="h-8">
-            <h1 className="text-xl font-bold ml-2">Lost Book of Herbal Remedies</h1>
+            <div className="text-xl font-bold ml-2">Lost Book of Herbal Remedies</div>
         </div>
       </nav>
 
-      <main className="flex flex-col items-center bg-white shadow-xl">
-        <div className="flex w-full h-180" style={{ backgroundColor: "beige", border: '1px solid burlywood' }}>
+      <main className="flex flex-col items-center bg-white shadow-xl" style={{ border: '1px solid burlywood' }}>
+        <div className="flex w-full h-180" style={{ backgroundColor: "beige" }}>
           <div className="flex flex-col w-1/2 items-center mr-12" style={{ height: '50vh' }} >
             <h2 style={{fontSize: '24px'}} className="text-xl font-bold mt-20 m-5 text-center">Discover The Forgotten Power of Plants TODAY ONLY: <span style={{ color: 'red' }}>$37</span></h2>
             <div className="w-70 h-12 border-yellow-600 border-2 rounded-full mt-4 bg-yellow-500 hover:bg-yellow-400 flex items-center justify-center text-white pl-10 pr-10 shadow-lg cursor-pointer" onClick={scrollToVideoButton}><h3 className="text-xl font-bold">CLICK HERE TO GET IT NOW! >> </h3></div>
             <p className="text-xs text-gray-600 p-12">*Disclaimer: Individual results may vary. The information on this website has not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. </p>
         </div>
           <div style={{ height: '50vh' }} className="w-1/2 flex items-center justify-center">
-            <img style={{ height: '420px'}} src='1608154908.png' />
+            <img style={{ height: '420px'}} src='1608154908.png' alt="3D Book" />
           </div>
       </div>
       <div className="flex flex-col m-10 mt-20" >
@@ -63,11 +66,11 @@ export default function Home() {
 
           <div className="w-full flex mt-5 mb-20">
             <div className="h-24 w-1/2 m-5">
-              <img src="review2.png" height="100"></img>
+              <img src="review2.png" height="100" alt="image 1"></img>
               <p className="text-xs text-bold ml-1 mt-1">Wow, this book has 2-4 color pictures for every plant, with in depth identification notes. easy to use. lots of remedies, tinctures, syrups, ointments, poultices, etc. Also, at the end the book has an index with all the conditions you can think of… and the pages where you’ll find the remedies and plants for your particular needs </p>
             </div>
             <div className="h-24 w-1/2 m-5">
-              <img src="review3.png"></img>
+              <img src="review3.png" alt="image 2"></img>
               <p className="text-xs text-bold ml-1 mt-1">I've had extensive involvement in healthcare and the unfortunate corruption of conventional medicine and this book is a valuable resource for anyone who wishes to research more options for health remedies that may provide the elusive answer to a stubborn ailment. Plus, being able to grow the plants suggested in this work will enhance the beauty of any landscape! </p>
             </div>
           </div>
