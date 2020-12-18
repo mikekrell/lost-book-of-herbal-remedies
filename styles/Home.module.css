@@ -49,8 +49,8 @@ font-size: 24px;
 height: 48px;
 justify-content: center;
 line-height: 36px;
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .disclaimer {
@@ -93,6 +93,10 @@ padding-right: 40px;
     margin-right: 0;
   }
 
+  .cta_text {
+    font-size: .55em !important;
+  }
+
 }
 
 .header_cta {
@@ -102,6 +106,13 @@ padding-right: 40px;
   align-items: center;
   justify-content: center;
   flex: 1 1 0px;
+}
+
+.cta_text {
+  font-size: .75em;
+  font-weight: bold;
+  background-color:"#f59e0b" ;
+  text-align: center;
 }
 
 .header_h2 {
@@ -207,13 +218,14 @@ padding-right: 40px;
   justify-content: center;
   padding: 1em;
   align-items: center;
-  background: rgb(4, 120, 87)
+  background: rgb(4, 120, 87);
 }
 
 .section5_h1 {
   font-size: 24px;
   color: white; 
   margin: 20px 0px;
+  text-align: center;
 }
 
 .section5_h1 {

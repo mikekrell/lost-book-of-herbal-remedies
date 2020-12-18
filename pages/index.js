@@ -61,7 +61,7 @@ export default function Home() {
             </div>
         </div>
         <div name="watchvideocta" className={styles.section4}>
-            <Link className={styles.cta} to="video" smooth={true}><div style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
+            <Link className={styles.cta} to="video" smooth={true}><div className={styles.cta_text}>CLICK HERE TO WATCH THE VIDEO</div>
             </Link>
         </div>
         <div className={styles.section8}>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className={styles.section5} name="video">
               <h1 className={styles.section5_h1}>A Final Thoughts on The Book of Herbal Remedies</h1>
-              <iframe title="Power of Plants Vimeo" src="https://player.vimeo.com/video/471422053" width="590" height="361" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+              <iframe style={{width: '100%', height: 'auto'}} title="Power of Plants Vimeo" src="https://player.vimeo.com/video/471422053" width="590" height="361" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
               <p className={styles.section5_p}>Overall, this comprehensive program is beneficial and a practical guide for everyone. It is for those who are looking for a more affordable way of treating diseases and staying healthy. In this guide, you will learn some of the best survival methods and techniques. You will begin to appreciate the health benefits of herbs and other medicinal plants. This revolutionary eBook can serve as your survival kit even in the hardest times. And also, it comes with a money back guarantee offer, you can request for a refund in case you are not satisfied with the program. It has been tried by many and so far, it has been gaining positive reviews.</p>
             </div>
 
