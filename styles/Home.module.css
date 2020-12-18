@@ -23,23 +23,7 @@
 
 .cta { 
 align-items: center;
-background-color: rgb(245, 158, 11);
-border-bottom-color: rgb(217, 119, 6);
-border-bottom-left-radius: 9999px;
-border-bottom-right-radius: 9999px;
-border-bottom-style: solid;
-border-bottom-width: 2px;
-border-left-color: rgb(217, 119, 6);
-border-left-style: solid;
-border-left-width: 2px;
-border-right-color: rgb(217, 119, 6);
-border-right-style: solid;
-border-right-width: 2px;
-border-top-color: rgb(217, 119, 6);
-border-top-left-radius: 9999px;
-border-top-right-radius: 9999px;
-border-top-style: solid;
-border-top-width: 2px;
+background-color: rgb(217, 119, 6);
 box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 box-sizing: border-box;
 color: rgb(255, 255, 255);

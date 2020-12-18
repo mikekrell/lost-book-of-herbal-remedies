@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className={styles.header_cta}>
             <h2 className={styles.header_h2}>Discover The Forgotten Power of Plants TODAY ONLY: <span style={{ color: 'red' }}>$37</span></h2>
-            <Link className={styles.cta} to="watchvideocta" smooth={true}><div style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "#f59e0b", textAlign: 'center'}}>CLICK HERE TO GET IT NOW! </div></Link>
+            <Link className={styles.cta} to="watchvideocta" smooth={true}><div style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "rgb(217, 119, 6)", textAlign: 'center'}}>CLICK HERE TO GET IT NOW! </div></Link>
             <p className={styles.disclaimer}>*Disclaimer: Individual results may vary. The information on this website has not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
         </div>
         <div name="watchvideocta" className={styles.section4}>
-            <Link className={styles.cta} to="video" smooth={true}><div className={styles.cta_text} style={{ backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
+            <Link className={styles.cta} to="video" smooth={true}><div className={styles.cta_text} style={{ backgroundColor: "rgb(217, 119, 6)" }}>CLICK HERE TO WATCH THE VIDEO</div>
             </Link>
         </div>
         <div className={styles.section8}>
