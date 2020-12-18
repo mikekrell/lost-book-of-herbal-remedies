@@ -28,6 +28,7 @@ export default function Home() {
       <Head>
         <title>The Lost Book of Herbal Remedies | Cure your Ailments Naturally.</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description">"Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem."</meta>
         <meta property="og:title" content="The Lost Book of Herbal Remedies | Cure your Ailments Naturally" key="title" />
         <meta property="og:description" content="Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem." key="description" />
         <link rel="icon" href="/favicon.ico" />
@@ -65,15 +66,15 @@ export default function Home() {
 
           <div className={styles.section2}>
             <div className="h-24 w-1/2 m-5">
-              <img src="review2.png" height="100" width="324" alt="image 1"></img>
+              <img src="review2.png" height="103" width="324" alt="image 1"></img>
             </div>
             <div className="h-24 w-1/2 m-5">
-              <img src="review3.png" height="100" width="324" alt="image 2"></img>
+              <img src="review3.png" height="103" width="324" alt="image 2"></img>
             </div>
           </div>
       </div>
 
-        <div>
+        <div style={{width: '100%'}}>
         <div className={styles.section3}>
             <div className={styles.sectio3_text}>
               <h1 className={styles.sectio3_h1}>The Lost Book of Herbal Remedies Overview</h1>
@@ -89,23 +90,28 @@ export default function Home() {
             <div className={styles.cta} onClick={scrollToVideo}><div style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
           </div>
         </div>
-        <div className={styles.section1}>
-        <img style={{width: '100%', marginBottom: "30px"}} width="930" height="490" alt="the medicinal plants hiding in your back yard" src="The_Medicinal_Plants_Hiding_in_Your_Backyard_for_Every_US_State.jpg"/>
-        <h1 className={styles.sectio3_h1}>How Does The Lost Book of Herbal Remedies Work?</h1>
-        <p dir="ltr">The program is comprehensive enough to give you the details and information you need to get started. It works by guiding you in every step of the way, specifically on how to use herbs and plants for treating diseases.</p>
-        <p dir="ltr">The book will explain to you the benefits of using natural ingredients, those that can be found in nature. It will show you how to start your own herbal garden at home. In fact, it comes with detailed guide on how you can grow medicinal plants. It also includes a list of anti-inflammatory plants for faster healing of wounds and pain. At the same time, this eBook highlights the benefits of growing plants that have antiviral properties.</p>
-            <h1 className={styles.sectio3_h1}>What You Will Find Inside The Lost Book of Herbal Remedies?</h1>
-            <p>When you purchase the program, it will open your mind to a lot of helpful information and methods on how to stay away from diseases and be healthy. Here are some of the things you will learn from the guide:</p>
-            <ul className="m-2">
-              <li className="m-2">1. How to use medicinal plants and herbs with step by step procedure</li>
-              <li className="m-2">2. Specific herbs to use on how to treat wheezing, asthma, common cold and more</li>
-              <li className="m-2">3. How to stay healthy despite of many surrounding illnesses</li>
-              <li className="m-2">4. A list of plants and herbs for preventing various types of health problems</li>
-              <li className="m-2">5. sList of spices for treating viral or parasitic problems</li>
-            </ul>
+        <div className={styles.section8}>
+            <img style={{
+              marginBottom: "30px", width: "100%",
+              height: "auto" }} width="937" height="492" alt="the medicinal plants hiding in your back yard" src="The_Medicinal_Plants_Hiding_in_Your_Backyard_for_Every_US_State.jpg"/>
+            <div className={styles.para}>
+                  <h1 className={styles.sectio3_h1}>How Does The Lost Book of Herbal Remedies Work?</h1>
+                  <p dir="ltr">The program is comprehensive enough to give you the details and information you need to get started. It works by guiding you in every step of the way, specifically on how to use herbs and plants for treating diseases.</p>
+                  <p dir="ltr">The book will explain to you the benefits of using natural ingredients, those that can be found in nature. It will show you how to start your own herbal garden at home. In fact, it comes with detailed guide on how you can grow medicinal plants. It also includes a list of anti-inflammatory plants for faster healing of wounds and pain. At the same time, this eBook highlights the benefits of growing plants that have antiviral properties.</p>
+            </div>
+            <div className={styles.para}>
+                  <h1 className={styles.sectio3_h1}>What You Will Find Inside The Lost Book of Herbal Remedies?</h1>
+                  <p>When you purchase the program, it will open your mind to a lot of helpful information and methods on how to stay away from diseases and be healthy. Here are some of the things you will learn from the guide:</p>
+                  <ul className="m-2">
+                    <li className="m-2">1. How to use medicinal plants and herbs with step by step procedure</li>
+                    <li className="m-2">2. Specific herbs to use on how to treat wheezing, asthma, common cold and more</li>
+                    <li className="m-2">3. How to stay healthy despite of many surrounding illnesses</li>
+                    <li className="m-2">4. A list of plants and herbs for preventing various types of health problems</li>
+                    <li className="m-2">5. sList of spices for treating viral or parasitic problems</li>
+                  </ul>
+            </div>
         </div>
-          
-          <div style={{display: 'flex', flexDirection: 'column'}}>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
             <div className={styles.section3} style={{ backgroundColor: "beige" }}>
               <h1 className={styles.sectio3_h1}>What Are The PROS of Using The Program?</h1>
               <p dir="ltr" className={styles.mb_5}><strong>1. It is easy to use and understand –</strong> One of the primary goals of this program is to help common people on how to take advantage of herbs and medicinal plants. This is why the whole guide is explained in simple, easy steps. The methods come in detailed format. You don’t need to be a medical expert in order to use and understand the guide. It is not necessary to have prior knowledge about the different herbs and plants. The program will show you where to start and how to begin.</p>
