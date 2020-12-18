@@ -1,28 +1,10 @@
 import React from "react";
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 export default function Home() {
   
-  const scrollToVideoButton = () => {
-    scroll.scrollTo(1400, {
-      duration: 1625,
-      delay: 100,
-      smooth: true,
-      offset: 50
-    });
-  }
-
-  const scrollToVideo = () => {
-    scroll.scrollTo(3400, {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-      offset: 50
-    });
-  }
-
   return (
     <div className={styles.container}>
       <Head>
@@ -32,14 +14,6 @@ export default function Home() {
         <meta property="og:title" content="The Lost Book of Herbal Remedies | Cure your Ailments Naturally" key="title" />
         <meta property="og:description" content="Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem." key="description" />
         <link rel="icon" href="/favicon.ico" />
-        <>
-        <script dangerouslySetInnerHTML={{ __html:
-                  `!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
-        qp('init', 'd7fb88564e0f42f1808758e30bc1dfa8');
-        qp('track', 'ViewContent');
-        qp('track', 'Generic');` }}/>
-          <noscript dangerouslySetInnerHTML={{ __html:`<img alt="pixel" height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/d7fb88564e0f42f1808758e30bc1dfa8/pixel?tag=ViewContent&noscript=1" />`}}/>
-        </>
       </Head>
 
       <nav className={styles.navigation}>
@@ -55,7 +29,7 @@ export default function Home() {
           </div>
           <div className={styles.header_cta}>
             <h2 className={styles.header_h2}>Discover The Forgotten Power of Plants TODAY ONLY: <span style={{ color: 'red' }}>$37</span></h2>
-            <div className={styles.cta} onClick={scrollToVideoButton}><div style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "#f59e0b"}}>CLICK HERE TO GET IT NOW! >> </div></div>
+            <Link className={styles.cta} to="watchvideocta" smooth={true}><div style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "#f59e0b"}}>CLICK HERE TO GET IT NOW! </div></Link>
             <p className={styles.disclaimer}>*Disclaimer: Individual results may vary. The information on this website has not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. </p>
         </div>
 
@@ -86,9 +60,9 @@ export default function Home() {
             <p dir="ltr">This digital book is the brainchild of Dr. Claude Davis and Nicole Apelian. He explains that there are specific forest weeds and backyard weeds that are highly efficient in treating chronic diseases. He even emphasizes that some of these weeds are mostly ignored by people. In this guide, he explains what specific wild plants and weeds that have the ability to provide a long list of health benefits to everyone. You can get information from the book and use it to treat various illnesses and stay healthy.</p>
             </div>
         </div>
-        <div className={styles.section4}>
-            <div className={styles.cta} onClick={scrollToVideo}><div style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
-          </div>
+        <div name="watchvideocta" className={styles.section4}>
+            <Link className={styles.cta} to="video" smooth={true}><div style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
+            </Link>
         </div>
         <div className={styles.section8}>
             <img style={{
@@ -107,12 +81,12 @@ export default function Home() {
                     <li className="m-2">2. Specific herbs to use on how to treat wheezing, asthma, common cold and more</li>
                     <li className="m-2">3. How to stay healthy despite of many surrounding illnesses</li>
                     <li className="m-2">4. A list of plants and herbs for preventing various types of health problems</li>
-                    <li className="m-2">5. sList of spices for treating viral or parasitic problems</li>
+                    <li className="m-2">5. List of spices for treating viral or parasitic problems</li>
                   </ul>
             </div>
         </div>
         <div style={{display: 'flex', flexDirection: 'column'}}>
-            <div className={styles.section3} style={{ backgroundColor: "beige" }}>
+            <div className={styles.section3} style={{ backgroundColor: "beige", flexDirection: 'column' }}>
               <h1 className={styles.sectio3_h1}>What Are The PROS of Using The Program?</h1>
               <p dir="ltr" className={styles.mb_5}><strong>1. It is easy to use and understand –</strong> One of the primary goals of this program is to help common people on how to take advantage of herbs and medicinal plants. This is why the whole guide is explained in simple, easy steps. The methods come in detailed format. You don’t need to be a medical expert in order to use and understand the guide. It is not necessary to have prior knowledge about the different herbs and plants. The program will show you where to start and how to begin.</p>
               <p dir="ltr" className={styles.mb_5}><strong>2. Helps save lives –</strong> This is one of the good things about using this comprehensive guide. With the information and tips you will learn from it, you’ll be able to save the lives of your loved ones and the people around you. For instance, if you travel to a remote area with your loves and suddenly one of them suffers from a certain infection, this program can help you treat them with the available plants and weeds you can find.</p>
@@ -120,12 +94,12 @@ export default function Home() {
               <p dir="ltr" className={styles.mb_5}><strong>4. It does not have side effects –</strong> Treatments and medications are not just expensive, they are also dangerous to health. But with this revolutionary program, you will learn how to naturally treat diseases and keep your body healthy. This means that you don’t have to worry about any unnecessary side effects. This digital guide promotes all-natural way of treating diseases and illnesses.</p>
               <p dir="ltr" className={styles.mb_5}><strong>5. It works for men and women –</strong> The program is not gender-specific, which means it can be taken advantage by both genders. Regardless of your gender, you can purchase the guide and use it.</p>
             </div>
-            <div className={styles.section3} style={{ backgroundColor: "white" }}>
+            <div className={styles.section3} style={{ backgroundColor: "white", flexDirection: 'column' }}>
               <h1 className={styles.sectio3_h1}>CONS of Using The Program?</h1>
               <p className={styles.mb_5}><strong>1. It is available online –</strong> If you decide to buy the program, you can only purchase it online. You need to have an internet connections in order to access and download the program.</p>
               <p className={styles.mb_5}><strong>2. It requires patience and dedication –</strong> Do not expect the program to give you instant results. It does not offer overnight success. This means that you have to be patient and dedicated in going through the whole guide and understand every significant topic.</p>
             </div>
-            <div className={styles.section5}>
+            <div className={styles.section5} name="video">
               <h1 className={styles.section5_h1}>A Final Thoughts on The Book of Herbal Remedies</h1>
               <iframe title="Power of Plants Vimeo" src="https://player.vimeo.com/video/471422053" width="590" height="361" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
               <p className={styles.section5_p}>Overall, this comprehensive program is beneficial and a practical guide for everyone. It is for those who are looking for a more affordable way of treating diseases and staying healthy. In this guide, you will learn some of the best survival methods and techniques. You will begin to appreciate the health benefits of herbs and other medicinal plants. This revolutionary eBook can serve as your survival kit even in the hardest times. And also, it comes with a money back guarantee offer, you can request for a refund in case you are not satisfied with the program. It has been tried by many and so far, it has been gaining positive reviews.</p>

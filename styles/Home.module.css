@@ -70,11 +70,23 @@ padding-right: 40px;
 
 .header {
   display: flex;
-  flex-direction: column;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: beige;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .section3 {
+    flex-direction: column;
+  }
+  .productListing {
+    flex-direction: column;
+  }
+
 }
 
 .header_cta {
@@ -150,10 +162,11 @@ padding-right: 40px;
 
 .section3 {
   display: flex;
-  flex-direction: column;
   padding: 3.5em;
   background-color: beige;
 }
+
+
 
 .sectio3_text {
   flex: 1 1 0px;
@@ -224,8 +237,7 @@ padding-right: 40px;
 .productListing {
   margin: 20px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .productImage {
