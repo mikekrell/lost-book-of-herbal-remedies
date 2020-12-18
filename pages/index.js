@@ -60,7 +60,7 @@ export default function Home() {
             </div>
         </div>
         <div name="watchvideocta" className={styles.section4}>
-            <Link className={styles.cta} to="video" smooth={true}><div className={styles.cta_text}>CLICK HERE TO WATCH THE VIDEO</div>
+            <Link className={styles.cta} to="video" smooth={true}><div className={styles.cta_text} style={{ backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
             </Link>
         </div>
         <div className={styles.section8}>
