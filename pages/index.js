@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className={styles.header_cta}>
             <h2 className={styles.header_h2}>Discover The Forgotten Power of Plants TODAY ONLY: <span style={{ color: 'red' }}>$37</span></h2>
-            <div className={styles.cta} onClick={scrollToVideoButton}><h3 style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "#f59e0b"}}>CLICK HERE TO GET IT NOW! >> </h3></div>
+            <div className={styles.cta} onClick={scrollToVideoButton}><div style={{ fontWeight: 'bold', fontSize: '.75em', width: '280px', backgroundColor: "#f59e0b"}}>CLICK HERE TO GET IT NOW! >> </div></div>
             <p className={styles.disclaimer}>*Disclaimer: Individual results may vary. The information on this website has not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
         </div>
         <div className={styles.section4}>
-            <div className={styles.cta} onClick={scrollToVideo}><h3 style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</h3>
+            <div className={styles.cta} onClick={scrollToVideo}><div style={{ fontWeight: 'bold', fontSize: '.75em', backgroundColor: "#f59e0b" }}>CLICK HERE TO WATCH THE VIDEO</div>
           </div>
         </div>
         <div className={styles.section1}>
