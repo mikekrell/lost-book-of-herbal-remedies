@@ -28,7 +28,7 @@ export default function Home() {
       <Head>
         <title>The Lost Book of Herbal Remedies | Cure your Ailments Naturally.</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description">"Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem."</meta>
+        <meta name="description" content="Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem."></meta>
         <meta property="og:title" content="The Lost Book of Herbal Remedies | Cure your Ailments Naturally" key="title" />
         <meta property="og:description" content="Treating diseases and staying healthy can be expensive. This is true especially if the illness is serious. However, many people are not aware that diseases and illnesses can be treated with herbs and medicinal ingredients. If you want to naturally treat diseases and stay healthy, The Lost Book of Herbal Remedies can be the answer to your problem." key="description" />
         <link rel="icon" href="/favicon.ico" />
